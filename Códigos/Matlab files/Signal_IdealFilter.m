@@ -26,6 +26,9 @@ for k=-2:1:1 %en este ciclo roto el vector rampa ps y voy generando la función 
     dds=dds+circshift(ps,fix(shft)); %sumatoria de generación
 end
 
+plot(t,dds,'b',t,Sefu,'r'),grid on,xlabel 'Tiempo (Seg)', ylabel Amplitud;xlim([-2*T 2*T]); %Gráficas de Resultados
+title(['\bf Señal Original vs Señal Reconstruida - Numero de Armónicos: ',num2str(n),'']);
+
 %% CALCULO DE COEFICIENTES
 
 % |Bn| 
