@@ -7,13 +7,13 @@
 % The following commands are not supported in PSTricks at present
 % We define them conditionally, so when they are implemented,
 % this pgf file will use them.
-\begin{figure}[]
+\begin{figure}[H]
 	\centering
 	\ifx\du\undefined
 		\newlength{\du}
 	\fi
 	\setlength{\du}{15\unitlength}
-	\begin{tikzpicture}[scale = 1]
+	\begin{tikzpicture}[scale = 0.7]
 		\pgftransformxscale{1.000000}
 		\pgftransformyscale{-1.000000}
 		\definecolor{dialinecolor}{rgb}{0.000000, 0.000000, 0.000000}
@@ -135,7 +135,7 @@
 		\definecolor{diafillcolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (47.009500\du,15.451675\du){\scriptsize -(a+b)};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (47.009500\du,15.451675\du){\tiny -(a+b)};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetstrokecolor{dialinecolor}
@@ -143,7 +143,7 @@
 		\definecolor{diafillcolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (48.976600\du,15.440175\du){\scriptsize a-b};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (48.976600\du,15.440175\du){\tiny a-b};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetstrokecolor{dialinecolor}
@@ -151,7 +151,7 @@
 		\definecolor{diafillcolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (51.037500\du,15.451675\du){\scriptsize b-a};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (51.037500\du,15.451675\du){\tiny b-a};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetstrokecolor{dialinecolor}
@@ -159,7 +159,7 @@
 		\definecolor{diafillcolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (53.006800\du,15.451675\du){\scriptsize b+a};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (53.006800\du,15.451675\du){\tiny b+a};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetstrokecolor{dialinecolor}
@@ -167,7 +167,7 @@
 		\definecolor{diafillcolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (55.525900\du,14.580517\du){\scriptsize t};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (55.525900\du,14.580517\du){\tiny t};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetstrokecolor{dialinecolor}
@@ -175,7 +175,7 @@
 		\definecolor{diafillcolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (50.420800\du,10.820775\du){\scriptsize 2a};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (50.420800\du,10.820775\du){\tiny 2a};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetstrokecolor{dialinecolor}
@@ -183,7 +183,7 @@
 		\definecolor{diafillcolor}{rgb}{0.396078, 0.345098, 0.960784}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (50.558400\du,9.743345\du){\scriptsize y(t)};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (50.558400\du,9.743345\du){\tiny y(t)};
 		\pgfsetlinewidth{0.060000\du}
 		\pgfsetdash{}{0pt}
 		\pgfsetbuttcap
@@ -224,6 +224,7 @@
 			\draw (52.996740\du,15.000650\du)--(55.356049\du,14.988030\du);
 		}
 	\end{tikzpicture}
-	\caption{}
-	\label{}
+	\vspace{-2mm}
+	\caption{Señal resultante de la convolución.}
+	\label{fig:trapezoide}
 \end{figure}
