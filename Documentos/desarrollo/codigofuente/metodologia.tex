@@ -6,14 +6,14 @@ En primer lugar, se identificó los segmentos del trabajo 2 donde se hacen los r
 \input{codigofuente/pgf/diagramaBloques}
 \vspace{-5mm}
 
-El diagrama que se consideró para el ítem número 1 es el mostrado en la figura \ref{fig:diagramabloques1}, que corresponde a la secuencia de tener una operación de desplazamiento en el caso de tener una señal en la región de pasa banda y la operación de aplicar un filtro en banda base \cite{}. Pasando a la parte de desarrollo del funcionamiento se construyó la función del filtro pasa bajas directamente en el dominio de la frecuencia para luego proceder hacer la multiplicación con la transformada de Fourier de la función de la señal asignada.
+El diagrama que se consideró para el ítem número 1 es el mostrado en la figura \ref{fig:diagramabloques1}, que corresponde a la secuencia de tener una operación de desplazamiento en el caso de tener una señal en la región de pasa banda y la operación de aplicar un filtro en banda base \cite{filtros2021}. Pasando a la parte de desarrollo del funcionamiento se construyó la función del filtro pasa bajas directamente en el dominio de la frecuencia para luego proceder hacer la multiplicación con la transformada de Fourier de la función de la señal asignada.
 
-Para la segunda parte del proyecto se realizó una investigación y revisión a los documentos guía de la asignatura para planificar la construcción del filtro trapezoidal, en ellos se menciona el uso de la convolución para modificar una señal a partir de otra señal y realizan una demostración con la convolución de dos pulsos rectangulares semejantes que obtiene como resultado una función en forma de triangulo isósceles \cite{}. Sin embargo, en la teoría de la convolución la modificación que sufra una de las señales involucradas automáticamente va ha generar una modificación en la respuesta de la convolución.
+Para la segunda parte del proyecto se realizó una investigación y revisión a los documentos guía de la asignatura para planificar la construcción del filtro trapezoidal, en ellos se menciona el uso de la convolución para modificar una señal a partir de otra señal y realizan una demostración con la convolución de dos pulsos rectangulares de dimensiones diferentes que obtiene como resultado una función en forma de trapezoide \cite{ejercicio2021}. Sin embargo, en la teoría de la convolución la modificación que sufra una de las señales involucradas automáticamente va ha generar una modificación en la respuesta de la convolución, por ello es importante identificar sus parámetros para determinar que cambios va a sufrir la respuesta al modificar uno de sus parámetros \cite{Chaparro2013}.
 
 \input{codigofuente/pgf/ventanasInicial}
 \vspace{-5mm}
 
-Como se observa en la figura \ref{fig:ventanasIniciales} realizando una modificación a uno de los pulsos rectangulares es posible conseguir una figura trapezoidal, para ello el proceso de la convolución se puede ver como un traslape entre las dos funciones involucradas, este proceso se puede observar en las siguiente secuencia de figuras.
+Como se observa en la figura \ref{fig:ventanasIniciales} se tienen dos pulsos rectangulares cuyo ancho son diferentes con el fin de cumplir una condición necesaria para generar la función en forma de trapezoide, para ello el proceso de la convolución se puede ver como un traslape entre las dos funciones involucradas, este proceso se puede observar en la siguiente secuencia de figuras.
 
 \vspace{-3mm}
 \input{codigofuente/pgf/traslape1}
@@ -23,4 +23,22 @@ Como se observa en la figura \ref{fig:ventanasIniciales} realizando una modifica
 \input{codigofuente/pgf/trapezoide}
 \vspace{-5mm}
 
-El siguiente paso fue generar este proceso en el desarrollo computacional y proceder a multiplicar el filtro en forma de trapezoide con la figura planteada para así obtener el resultado de la señal original filtrada por esta función especial. Después de obtener dicho proceso se continuo calculando
+El siguiente paso fue generar este proceso en el desarrollo computacional con el uso de dos funciones tipo seno cardinal en el dominio del tiempo y realizar el proceso de convolución para obtener la respuesta en la frecuencia trapezoidal. Para el proceso de filtrar la señal \textit{se aplicó una función integrada en los módulos del lenguaje de codificación para realizar la convolución en el dominio del tiempo}. Después de obtener los resultados necesarios se continuó calculando la densidad espectral de energía en la señal original y también a las señales resultantes después de haberles aplicado los filtros en cada uno de los puntos, para realizar análisis de estos resultados se tuvo en cuenta la comparación porcentual entre la energía de la señal original y las resultantes \cite{densidad2021}, además a partir de la teoría de distorsión lineal se analizó la presencia de distorsión en la señal obtenida \cite{quiz2021}.
+
+\subsection{Plan de pruebas}\label{planPruebas}
+Después de haber realizado el planteamiento de cómo desarrollar y obtener los resultados en el script, se procedió a realizar la planificación de las pruebas de funcionamiento del código con el objetivo de verificar y analizar los resultados a través de algunos escenarios que se definen a continuación:
+
+\begin{itemize}
+	\item Aumentar y disminuir el rango de frecuencias del filtro ideal.
+	\item Variar el rango de frecuencias del filtro de trapezoidal donde su respuesta es constante.
+\end{itemize}
+
+Con los escenarios proyectados anteriormente se espera obtener resultados que permitan evidenciar los fenómenos estudiados. Además se plantean unos objetivos claves para verificar y analizar en los resultados la presencia de los teoremas relacionados con la temática de Sistemas LTI, los cuales se describen a continuación:
+
+\begin{enumerate}
+	\item Análisis de los efectos de aumentar el ancho del filtro ideal.
+	\item Análisis de los efectos de disminuir el ancho del filtro ideal.
+	\item Análisis de los efectos de variar el rango de frecuencias del filtro trapezoidal donde su respuesta es constante.
+	\item Análisis de resultados a partir del teorema de la energía de Rayleigh.
+	\item Análisis de los resultados a partir de la teoría de distorsión lineal.
+\end{enumerate}

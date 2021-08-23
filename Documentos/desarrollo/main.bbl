@@ -16,5 +16,151 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{filtros2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b53a53f334a64e72ca5a79b8b893b4e2}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Manuela\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{fullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{bibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorbibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authornamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorfullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Explicaci{ó}n de funcionamiento de filtros ideales}
+      \field{title}{{Filtros}}
+      \field{year}{2021}
+      \verb{file}
+      \verb :home/jnicolaschc/GitHub/Teor{\'{i}}a de Telecominicaciones I /ttl1_trabajo3/Referencias/ejercicios Filtros Ideales2.pdf:pdf
+      \endverb
+    \endentry
+    \entry{ejercicio2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b53a53f334a64e72ca5a79b8b893b4e2}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Manuela\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Docente de la Universidad del Cauca}%
+      }
+      \strng{namehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{fullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{bibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorbibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authornamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorfullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ejercicios convolucion.pdf}
+      \field{year}{2021}
+      \verb{file}
+      \verb :home/jnicolaschc/GitHub/Teor{\'{i}}a de Telecominicaciones I /ttl1_trabajo3/Referencias/ejercicios convolucion.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Chaparro2013}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=01e57242e29d820932ab8bdc0b8aa651}{%
+           family={Chaparro},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Usuario de Youtube}%
+      }
+      \strng{namehash}{01e57242e29d820932ab8bdc0b8aa651}
+      \strng{fullhash}{01e57242e29d820932ab8bdc0b8aa651}
+      \strng{bibnamehash}{01e57242e29d820932ab8bdc0b8aa651}
+      \strng{authorbibnamehash}{01e57242e29d820932ab8bdc0b8aa651}
+      \strng{authornamehash}{01e57242e29d820932ab8bdc0b8aa651}
+      \strng{authorfullhash}{01e57242e29d820932ab8bdc0b8aa651}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Convolucion de dos ventanas en el tiempo}}
+      \field{year}{2013}
+      \verb{file}
+      \verb :home/jnicolaschc/GitHub/Teor{\'{i}}a de Telecominicaciones I /ttl1_trabajo3/Referencias/Convolucion de dos ventanas en el tiempo.mp4:mp4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=OmMocxJ7MnQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=OmMocxJ7MnQ
+      \endverb
+    \endentry
+    \entry{densidad2021}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b53a53f334a64e72ca5a79b8b893b4e2}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Manuela\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Docente de la Universidad del Cauca}%
+      }
+      \strng{namehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{fullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{bibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorbibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authornamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorfullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Densidad Espectral de Energia}}
+      \field{year}{2021}
+      \verb{file}
+      \verb :home/jnicolaschc/GitHub/Teor{\'{i}}a de Telecominicaciones I /ttl1_trabajo3/Referencias/Densidad Espectral de Energia.mp4:mp4
+      \endverb
+    \endentry
+    \entry{quiz2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b53a53f334a64e72ca5a79b8b893b4e2}{%
+           family={Zambrano},
+           familyi={Z\bibinitperiod},
+           given={Manuela\bibnamedelima Silva},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{fullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{bibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorbibnamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authornamehash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \strng{authorfullhash}{b53a53f334a64e72ca5a79b8b893b4e2}
+      \field{extraname}{4}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Usado para recordar las propiedades del teorema de distorsi{ó}n lineal}
+      \field{title}{{Quiz Sistemas LTI}}
+      \field{year}{2021}
+      \verb{file}
+      \verb :home/jnicolaschc/GitHub/Teor{\'{i}}a de Telecominicaciones I /ttl1_trabajo3/Referencias/clase22_04.pdf:pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
