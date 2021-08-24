@@ -7,7 +7,7 @@
 % The following commands are not supported in PSTricks at present
 % We define them conditionally, so when they are implemented,
 % this pgf file will use them.
-\begin{figure}[]
+\begin{figure}[H]
 	\centering
 	\ifx\du\undefined
 		\newlength{\du}
@@ -112,7 +112,7 @@
 		\definecolor{diafillcolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (43.532700\du,14.528504\du){\tiny $	$};
+		\node[anchor=base,inner sep=0pt, outer sep=0pt,color=dialinecolor] at (43.532700\du,14.528504\du){\tiny $\tau	$};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetstrokecolor{dialinecolor}
@@ -120,7 +120,7 @@
 		\definecolor{diafillcolor}{rgb}{0.000000, 0.000000, 0.000000}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base west,inner sep=0pt,outer sep=0pt,color=dialinecolor] at (40.337300\du,9.823361\du){\tiny x($	$)};
+		\node[anchor=base west,inner sep=0pt,outer sep=0pt,color=dialinecolor] at (40.337300\du,9.823361\du){\tiny x($\tau$)};
 		\pgfsetlinewidth{0.040000\du}
 		\pgfsetdash{}{0pt}
 		\pgfsetbuttcap
@@ -191,7 +191,7 @@
 		\definecolor{diafillcolor}{rgb}{1.000000, 0.000000, 0.000000}
 		\pgfsetfillcolor{diafillcolor}
 		\pgfsetfillopacity{1.000000}
-		\node[anchor=base west,inner sep=0pt,outer sep=0pt,color=dialinecolor] at (38.110178\du,11.406131\du){\tiny h(t-$	$)};
+		\node[anchor=base west,inner sep=0pt,outer sep=0pt,color=dialinecolor] at (38.110178\du,11.406131\du){\tiny h(t-$\tau$)};
 		% setfont left to latex
 		\definecolor{dialinecolor}{rgb}{1.000000, 0.000000, 0.000000}
 		\pgfsetstrokecolor{dialinecolor}
@@ -396,6 +396,7 @@
 			\draw (48.993499\du,11.015003\du)--(50.372353\du,11.015003\du);
 		}
 	\end{tikzpicture}
-	\caption{}
-	\label{}
+	\vspace{-2mm}
+	\caption{\scriptsize Traslape segmento constante.}
+	\label{fig:traslape2}
 \end{figure}

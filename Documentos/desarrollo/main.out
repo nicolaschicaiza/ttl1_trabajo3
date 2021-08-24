@@ -1,4 +1,10 @@
 \BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
 \BOOKMARK [1][-]{section.2}{Metodolog\355a}{}% 2
-\BOOKMARK [1][-]{section.3}{An\341lisis de resultados}{}% 3
-\BOOKMARK [1][-]{section.4}{Conclusiones}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Plan de pruebas}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{An\341lisis de resultados}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Desarrollo del objetivo clave 1\205Aumento del ancho de la banda de paso}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Desarrollo del objetivo clave 2\205Disminuci\363n del ancho de la banda de paso}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Desarrollo del objetivo clave 3\205An\341lisis de la respuesta del filtro trapezoidal comparado con el filtro ideal}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Desarrollo del objetivo clave 4\205An\341lisis del teorema de Rayleigh}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.5}{Desarrollo del objetivo clave 5\205An\341lisis de la teor\355a de distorsi\363n lineal}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Conclusiones}{}% 10
