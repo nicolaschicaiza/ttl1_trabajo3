@@ -1,0 +1,285 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="6.25.0" title="Shotcut version 21.03.21" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="15" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" in="00:00:00.000" out="00:00:43.600">
+    <property name="length">00:00:43.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:36:23</property>
+    <property name="shotcut:hash">00266ffab6fe62a167cb6ce738f5f745</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:59.067">
+    <property name="length">00:00:59.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Filtro ideal.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:28:04</property>
+    <property name="shotcut:hash">d679020f5a3f0af10d1156cfaefc6d6f</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="00:00:48.467">
+    <property name="length">00:00:48.533</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Filtro trapezoidal.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:31:48</property>
+    <property name="shotcut:hash">370ec9061ba47dc185cf4101206c3095</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="00:00:41.467">
+    <property name="length">00:00:41.533</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Presentación.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:25:34</property>
+    <property name="shotcut:hash">8a2a5140297700edeba7a9f51cfe1cd1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:00:25.067">
+    <property name="length">00:00:25.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Señal asignada.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:26:57</property>
+    <property name="shotcut:hash">03d606bea86ce9aaa2c3cd29d6f138a8</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:43.600"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:59.067"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:48.467"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:41.467"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:25.067"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:02:12.800">
+    <property name="length">00:02:12.867</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgb24a</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:02:12.800"/>
+  </playlist>
+  <producer id="producer6" in="00:00:00.000" out="00:00:41.467">
+    <property name="length">00:00:41.533</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Presentación.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:25:34</property>
+    <property name="shotcut:hash">8a2a5140297700edeba7a9f51cfe1cd1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Presentación.mp4</property>
+    <property name="color_range">1</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="00:00:25.067">
+    <property name="length">00:00:25.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Señal asignada.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:26:57</property>
+    <property name="shotcut:hash">03d606bea86ce9aaa2c3cd29d6f138a8</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Señal asignada.mp4</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:00:59.067">
+    <property name="length">00:00:59.133</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Filtro ideal.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:28:04</property>
+    <property name="shotcut:hash">d679020f5a3f0af10d1156cfaefc6d6f</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Filtro ideal.mp4</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="00:00:48.467">
+    <property name="length">00:00:48.533</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Filtro trapezoidal.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:31:48</property>
+    <property name="shotcut:hash">370ec9061ba47dc185cf4101206c3095</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Filtro trapezoidal.mp4</property>
+  </producer>
+  <producer id="producer9" title="Shotcut version 21.03.21" in="00:00:00.000" out="00:00:43.600">
+    <property name="length">00:00:43.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:36:23</property>
+    <property name="shotcut:hash">00266ffab6fe62a167cb6ce738f5f745</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Análisis.mp4</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:02:04.867">
+    <property name="length">00:02:04.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.35:/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.35</property>
+    <property name="warp_resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="warp_pitch">0</property>
+    <property name="shotcut:hash">00266ffab6fe62a167cb6ce738f5f745</property>
+    <property name="shotcut:defaultAudioIndex">-1</property>
+    <property name="shotcut:caption">Análisis.mp4 (0.3x)</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer6" in="00:00:00.467" out="00:00:21.200"/>
+    <entry producer="producer7" in="00:00:06.133" out="00:00:19.067"/>
+    <entry producer="producer8" in="00:00:26.733" out="00:00:53.867"/>
+    <entry producer="producer3" in="00:00:03.400" out="00:00:44.467"/>
+    <entry producer="producer9" in="00:00:08.800" out="00:00:14.467"/>
+    <entry producer="producer10" in="00:01:24.867" out="00:01:49.733"/>
+  </playlist>
+  <producer id="producer11" in="00:00:00.000" out="00:00:43.600">
+    <property name="length">00:00:43.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:36:23</property>
+    <property name="shotcut:hash">00266ffab6fe62a167cb6ce738f5f745</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Análisis.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="00:00:43.600">
+    <property name="length">00:00:43.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/jnicolaschc/Vídeos/Grabaciones de Pantalla/Análisis.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-08-24T00:36:23</property>
+    <property name="shotcut:hash">00266ffab6fe62a167cb6ce738f5f745</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Análisis.mp4</property>
+    <property name="shotcut:defaultAudioIndex">1</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:01:47.867"/>
+    <entry producer="producer11" in="00:00:14.533" out="00:00:29.600"/>
+    <entry producer="producer12" in="00:00:29.667" out="00:00:39.467"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.03.21" global_feed="1" in="00:00:00.000" out="00:02:12.800">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:scaleFactor">1.65303</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>

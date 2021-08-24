@@ -1,14 +1,14 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'main.blg'
-[53] biber:315> INFO - === dom ago 22, 2021, 10:04:09
-[103] Biber.pm:371> INFO - Reading 'main.bcf'
-[258] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
-[284] Biber.pm:4093> INFO - Processing section 0
-[307] Biber.pm:4254> INFO - Looking for bibtex format file 'codigofuente/bibliografia.bib' for section 0
-[309] bibtex.pm:1512> INFO - LaTeX decoding ...
-[321] bibtex.pm:1329> INFO - Found BibTeX data source 'codigofuente/bibliografia.bib'
-[393] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[394] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[394] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[410] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[414] bbl.pm:739> INFO - Output to main.bbl
+[1] Config.pm:307> INFO - Logfile is 'main.blg'
+[48] biber:315> INFO - === lun ago 23, 2021, 18:21:17
+[80] Biber.pm:371> INFO - Reading 'main.bcf'
+[200] Biber.pm:889> INFO - Found 5 citekeys in bib section 0
+[414] Biber.pm:4093> INFO - Processing section 0
+[433] Biber.pm:4254> INFO - Looking for bibtex format file 'codigofuente/bibliografia.bib' for section 0
+[434] bibtex.pm:1512> INFO - LaTeX decoding ...
+[447] bibtex.pm:1329> INFO - Found BibTeX data source 'codigofuente/bibliografia.bib'
+[499] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[499] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[500] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[515] bbl.pm:636> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[518] bbl.pm:739> INFO - Output to main.bbl
